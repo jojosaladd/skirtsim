@@ -8,8 +8,9 @@ The physical simulation follows a standard force-based approach described in [La
 To differentiate fabric behaviors, I set different bending and stretch parameters so the results qualitatively match real-world fabrics. For the French seam finish, I assigned heavier mass to seam-edge vertices to mimic the extra fabric layers that increase mass along French seams.
 
 ## Demo
-![screenshot](media/screenshot.png)
-*(Add a short GIF here if you have one)*
+<video controls width="600">
+  <source src="recordings/example.mp4" type="video/mp4">
+</video>
 
 ## Requirements
 - Python 3.9+
