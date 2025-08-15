@@ -1,7 +1,7 @@
-# SkirtSim: Skirt/Seam Simulation in Taichi
+# SkirtSim: Skirt/Seam Simulator in Taichi
 
 
-This is a simple cloth simulation that models a circle skirt draping over a cone. It supports different fabric behaviors (denim vs jersey) and a seam effect (regular vs french seam).
+This is a simple cloth simulator that models a circle skirt draping over a cone. It supports different fabric behaviors (denim vs jersey) and a seam effect (regular vs french seam).
 
 The physical simulation follows a standard force-based approach described in [Large Steps in Cloth Simulation](https://dl.acm.org/doi/10.1145/280814.280821) and [Dynamic Deformables, Chapter 10, Thin Shell Forces](https://www.tkim.graphics/DYNAMIC_DEFORMABLES/DynamicDeformables.pdf). For the regular seam simulation, I followed [Computational Design of Skintight Clothing](https://www.researchgate.net/publication/343616934_Computational_design_of_skintight_clothing).
 
